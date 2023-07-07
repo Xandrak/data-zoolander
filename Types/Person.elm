@@ -105,5 +105,5 @@ validatePerson person =
     6. Depending on who you ask, marital status can be more than a few things. Is there a standard to base a rule off of? If so, that should be the rule.
     7. Could maybe consider using a NonEmpty community package in Elm or at least have types on the backend use it.
     8. Ensure nothing is empty/empty string that can't be.
-    9. 
+    9. Ensure dashes for SocialSecurityNumber and USPhoneNumber are removed. Along with any parentheses for area code.
 -}
